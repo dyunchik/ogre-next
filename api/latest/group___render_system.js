@@ -1318,7 +1318,8 @@ var group___render_system =
       [ "Ogre::RSC_POINT_EXTENDED_PARAMETERS_ARB", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a10d8a58880a7e9cd28108f45e671dc9d", null ],
       [ "Ogre::RSC_POINT_EXTENDED_PARAMETERS_EXT", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7ad9a6d84955c31986ec228e745eda8c71", null ],
       [ "Ogre::RSC_SEPARATE_UNUSED", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7abe20a37abea202be5ddd8796a2a8ac90", null ],
-      [ "Ogre::RSC_VAO", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a1a32a54a3b00630209a22204bbf8e38a", null ]
+      [ "Ogre::RSC_VAO", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a1a32a54a3b00630209a22204bbf8e38a", null ],
+      [ "Ogre::RSC_UMA", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7aab001d90db104675638a8d3089160650", null ]
     ] ],
     [ "Ogre::CapabilitiesCategory", "group___render_system.html#gaafd4c573704bd74fac9ec9c02071ad08", [
       [ "Ogre::CAPS_CATEGORY_COMMON", "group___render_system.html#ggaafd4c573704bd74fac9ec9c02071ad08a7809b8821213e9741559af9982a9b645", null ],

@@ -1573,6 +1573,7 @@ var namespace_ogre =
     [ "BufferType", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9", [
       [ "BT_IMMUTABLE", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9adb62fa4394e5ed5eb8d45742e6b28719", null ],
       [ "BT_DEFAULT", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9aa08ceed67b36cee74ed5b98f3864ab6d", null ],
+      [ "BT_DEFAULT_SHARED", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9ab90d85a967d1647087d9e525778e9bc1", null ],
       [ "BT_DYNAMIC_DEFAULT", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9a3c263c60e96eb7ef68ad8886e70c8969", null ],
       [ "BT_DYNAMIC_PERSISTENT", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9a169d359155879c68b8462d3cb0be8a4a", null ],
       [ "BT_DYNAMIC_PERSISTENT_COHERENT", "namespace_ogre.html#a579e6aa73b3f580b1227a5c80991dbc9aecb23d7992b7bdaf3c01af0759cf527c", null ]
@@ -1661,7 +1662,8 @@ var namespace_ogre =
       [ "RSC_POINT_EXTENDED_PARAMETERS_ARB", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a10d8a58880a7e9cd28108f45e671dc9d", null ],
       [ "RSC_POINT_EXTENDED_PARAMETERS_EXT", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7ad9a6d84955c31986ec228e745eda8c71", null ],
       [ "RSC_SEPARATE_UNUSED", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7abe20a37abea202be5ddd8796a2a8ac90", null ],
-      [ "RSC_VAO", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a1a32a54a3b00630209a22204bbf8e38a", null ]
+      [ "RSC_VAO", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a1a32a54a3b00630209a22204bbf8e38a", null ],
+      [ "RSC_UMA", "group___render_system.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7aab001d90db104675638a8d3089160650", null ]
     ] ],
     [ "CapabilitiesCategory", "group___render_system.html#gaafd4c573704bd74fac9ec9c02071ad08", [
       [ "CAPS_CATEGORY_COMMON", "group___render_system.html#ggaafd4c573704bd74fac9ec9c02071ad08a7809b8821213e9741559af9982a9b645", null ],

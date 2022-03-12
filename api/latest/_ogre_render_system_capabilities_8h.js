@@ -88,7 +88,8 @@ var _ogre_render_system_capabilities_8h =
       [ "RSC_POINT_EXTENDED_PARAMETERS_ARB", "_ogre_render_system_capabilities_8h.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a10d8a58880a7e9cd28108f45e671dc9d", null ],
       [ "RSC_POINT_EXTENDED_PARAMETERS_EXT", "_ogre_render_system_capabilities_8h.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7ad9a6d84955c31986ec228e745eda8c71", null ],
       [ "RSC_SEPARATE_UNUSED", "_ogre_render_system_capabilities_8h.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7abe20a37abea202be5ddd8796a2a8ac90", null ],
-      [ "RSC_VAO", "_ogre_render_system_capabilities_8h.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a1a32a54a3b00630209a22204bbf8e38a", null ]
+      [ "RSC_VAO", "_ogre_render_system_capabilities_8h.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7a1a32a54a3b00630209a22204bbf8e38a", null ],
+      [ "RSC_UMA", "_ogre_render_system_capabilities_8h.html#gga3d2965b7f378ebdcfe8a4a6cf74c3de7aab001d90db104675638a8d3089160650", null ]
     ] ],
     [ "CapabilitiesCategory", "_ogre_render_system_capabilities_8h.html#gaafd4c573704bd74fac9ec9c02071ad08", [
       [ "CAPS_CATEGORY_COMMON", "_ogre_render_system_capabilities_8h.html#ggaafd4c573704bd74fac9ec9c02071ad08a7809b8821213e9741559af9982a9b645", null ],

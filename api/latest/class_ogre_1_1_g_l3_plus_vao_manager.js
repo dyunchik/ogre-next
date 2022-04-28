@@ -72,5 +72,6 @@ var class_ogre_1_1_g_l3_plus_vao_manager =
     [ "supportsPersistentMapping", "class_ogre_1_1_g_l3_plus_vao_manager.html#aaedd48d2dd6f21e37fa069f92865eb45", null ],
     [ "waitFor", "class_ogre_1_1_g_l3_plus_vao_manager.html#a7b9232ad54fd466bddf3d3983c50da76", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_g_l3_plus_vao_manager.html#ae2a29b07920e091d7d08452cc35fe635", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_g_l3_plus_vao_manager.html#a248b84a6f40f01f36e2a56474912ac3b", null ]
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_g_l3_plus_vao_manager.html#a248b84a6f40f01f36e2a56474912ac3b", null ],
+    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_g_l3_plus_vao_manager.html#ac19a4a6b47aecca2c6ad8f57aa43f59b", null ]
 ];

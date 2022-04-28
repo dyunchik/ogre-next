@@ -98,5 +98,6 @@ var class_ogre_1_1_vulkan_vao_manager =
     [ "waitFor", "class_ogre_1_1_vulkan_vao_manager.html#ab330cf97bef57f8fb7cb8a5488ff13c1", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_vulkan_vao_manager.html#abf65946524c59fd0a4e09e3230e6e23a", null ],
     [ "waitForTailFrameToFinish", "class_ogre_1_1_vulkan_vao_manager.html#a08ecd0459408a5f93c4193bad5e225b6", null ],
+    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_vulkan_vao_manager.html#ac19a4a6b47aecca2c6ad8f57aa43f59b", null ],
     [ "VulkanStagingBuffer", "class_ogre_1_1_vulkan_vao_manager.html#a54ef1d4112c8678c370f99209117ce35", null ]
 ];

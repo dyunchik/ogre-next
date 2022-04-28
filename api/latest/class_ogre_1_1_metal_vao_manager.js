@@ -72,5 +72,6 @@ var class_ogre_1_1_metal_vao_manager =
     [ "unalignedCopy", "class_ogre_1_1_metal_vao_manager.html#a5257283985d32942e992be7741bb332f", null ],
     [ "waitFor", "class_ogre_1_1_metal_vao_manager.html#a9c4b755aeadffcf4fe37e464b1193643", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#a0bfec349598fe9246f626f5ddaa7a228", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#adcf387a327a1fe5dafb309f9bfc6dec4", null ]
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#adcf387a327a1fe5dafb309f9bfc6dec4", null ],
+    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_metal_vao_manager.html#afb5f55203c1a1e341d9ba649f79861bd", null ]
 ];

@@ -78,5 +78,6 @@ var class_ogre_1_1_d3_d11_vao_manager =
     [ "waitFor", "class_ogre_1_1_d3_d11_vao_manager.html#ae9f78d49c591fda7664e173805b651b5", null ],
     [ "waitFor", "class_ogre_1_1_d3_d11_vao_manager.html#a19f695bdf80d437e1ae8de3e047e202a", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#acecbebc28df5a9d1863191030b8d55ac", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#a6398691f6a128e2b37f4cd27a27aab01", null ]
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#a6398691f6a128e2b37f4cd27a27aab01", null ],
+    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_d3_d11_vao_manager.html#ac19a4a6b47aecca2c6ad8f57aa43f59b", null ]
 ];

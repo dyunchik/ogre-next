@@ -122,11 +122,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac370d0d6d7539e4e31187c7d33c27961"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#ac370d0d6d7539e4e31187c7d33c27961">stall</a> ()</td></tr>
 <tr class="memdesc:ac370d0d6d7539e4e31187c7d33c27961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for the GPU to finish all pending commands.  <a href="struct_ogre_1_1_metal_device.html#ac370d0d6d7539e4e31187c7d33c27961">More...</a><br /></td></tr>
 <tr class="separator:ac370d0d6d7539e4e31187c7d33c27961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d30f44d1b4c0fdad8c79f07f04d8f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a95d30f44d1b4c0fdad8c79f07f04d8f4">waitUntilCommitedCommandBufferCompleted</a> ()</td></tr>
+<tr class="separator:a95d30f44d1b4c0fdad8c79f07f04d8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a954392d24903e403f582fdda1cde0e5b"><td class="memItemLeft" align="right" valign="top">id&lt; MTLBlitCommandEncoder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a954392d24903e403f582fdda1cde0e5b">mBlitEncoder</a></td></tr>
 <tr class="separator:a954392d24903e403f582fdda1cde0e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50f9c00467fa7f7cd0367466dee54c4e"><td class="memItemLeft" align="right" valign="top">id&lt; MTLCommandBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a50f9c00467fa7f7cd0367466dee54c4e">mCommitedCommandBuffer</a></td></tr>
+<tr class="separator:a50f9c00467fa7f7cd0367466dee54c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af65992cbbeb31fb99eaae7bc4276fab8"><td class="memItemLeft" align="right" valign="top">id&lt; MTLComputeCommandEncoder &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#af65992cbbeb31fb99eaae7bc4276fab8">mComputeEncoder</a></td></tr>
 <tr class="separator:af65992cbbeb31fb99eaae7bc4276fab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab46b11729fd2db799921daac4c0a7ccc"><td class="memItemLeft" align="right" valign="top">id&lt; MTLCommandBuffer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#ab46b11729fd2db799921daac4c0a7ccc">mCurrentCommandBuffer</a></td></tr>
@@ -345,6 +349,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a95d30f44d1b4c0fdad8c79f07f04d8f4" name="a95d30f44d1b4c0fdad8c79f07f04d8f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d30f44d1b4c0fdad8c79f07f04d8f4">&#9670;&nbsp;</a></span>waitUntilCommitedCommandBufferCompleted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::MetalDevice::waitUntilCommitedCommandBufferCompleted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a954392d24903e403f582fdda1cde0e5b" name="a954392d24903e403f582fdda1cde0e5b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a954392d24903e403f582fdda1cde0e5b">&#9670;&nbsp;</a></span>mBlitEncoder</h2>
@@ -354,6 +375,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">id&lt;MTLBlitCommandEncoder&gt; Ogre::MetalDevice::mBlitEncoder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a50f9c00467fa7f7cd0367466dee54c4e" name="a50f9c00467fa7f7cd0367466dee54c4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50f9c00467fa7f7cd0367466dee54c4e">&#9670;&nbsp;</a></span>mCommitedCommandBuffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">id&lt;MTLCommandBuffer&gt; Ogre::MetalDevice::mCommitedCommandBuffer</td>
         </tr>
       </table>
 </div><div class="memdoc">

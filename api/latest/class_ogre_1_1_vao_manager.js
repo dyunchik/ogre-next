@@ -61,5 +61,6 @@ var class_ogre_1_1_vao_manager =
     [ "supportsIndirectBuffers", "class_ogre_1_1_vao_manager.html#a1d060170f4a1b7ff1e750f869a9e6298", null ],
     [ "supportsPersistentMapping", "class_ogre_1_1_vao_manager.html#aaedd48d2dd6f21e37fa069f92865eb45", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_vao_manager.html#af029f21d9a83ae3024e36695a3f554f7", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_vao_manager.html#a7a95cb3f3eeb2135707a2aec26b371c0", null ]
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_vao_manager.html#a7a95cb3f3eeb2135707a2aec26b371c0", null ],
+    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_vao_manager.html#ac19a4a6b47aecca2c6ad8f57aa43f59b", null ]
 ];

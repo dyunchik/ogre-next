@@ -1,5 +1,7 @@
 var NAVTREEINDEX269 =
 {
+"struct_ogre_1_1float4.html#a455f96a54be42ed640cfbd6fe873f197":[7,0,0,294,4],
+"struct_ogre_1_1float4.html#a4e18ae6fc1a9b1313e30b8946d92b2dd":[6,0,0,321,0],
 "struct_ogre_1_1float4.html#a4e18ae6fc1a9b1313e30b8946d92b2dd":[7,0,0,294,0],
 "struct_ogre_1_1float4.html#a63fbf33d63d84ac150110140cfe2edaf":[6,0,0,321,3],
 "struct_ogre_1_1float4.html#a63fbf33d63d84ac150110140cfe2edaf":[7,0,0,294,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX269 =
 "struct_ogre_1_1v1_1_1_vertex_bone_assignment__s.html#a734e6e3f60de59f1d571b6114151ac03":[6,0,0,27,130,0],
 "struct_ogre_1_1v1_1_1_vertex_bone_assignment__s.html#a734e6e3f60de59f1d571b6114151ac03":[7,0,0,2,130,0],
 "struct_ogre_1_1v1_1_1_vertex_bone_assignment__s.html#adcdaf180a49362ed22c542d5d7a3457e":[6,0,0,27,130,1],
-"struct_ogre_1_1v1_1_1_vertex_bone_assignment__s.html#adcdaf180a49362ed22c542d5d7a3457e":[7,0,0,2,130,1],
-"struct_ogre_1_1v1_1_1_vertex_data_1_1_hardware_animation_data.html":[5,2,9,31,0],
-"struct_ogre_1_1v1_1_1_vertex_data_1_1_hardware_animation_data.html#a6df454c6ed629dc29b9ee4f432ca374f":[5,2,9,31,0,1]
+"struct_ogre_1_1v1_1_1_vertex_bone_assignment__s.html#adcdaf180a49362ed22c542d5d7a3457e":[7,0,0,2,130,1]
 };

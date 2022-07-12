@@ -116,7 +116,7 @@ var hierarchy =
     [ "Ogre::FastArray< Ogre::VulkanDescriptorPool * >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< Ogre::VulkanQueue >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< Ogre::VulkanQueue::PerFrameData >", "class_ogre_1_1_fast_array.html", null ],
-    [ "Ogre::FastArray< Ogre::VulkanWindow * >", "class_ogre_1_1_fast_array.html", null ],
+    [ "Ogre::FastArray< Ogre::VulkanWindowSwapChainBased * >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< PartitionedSubMesh >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< PerThreadData * >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< Pool >", "class_ogre_1_1_fast_array.html", null ],
@@ -149,11 +149,13 @@ var hierarchy =
     [ "Ogre::FastArray< VkDescriptorImageInfo >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkDescriptorPoolSize >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkDescriptorSetLayout >", "class_ogre_1_1_fast_array.html", null ],
+    [ "Ogre::FastArray< VkExtensionProperties >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkFence >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkFramebuffer >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkImage >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkImageMemoryBarrier >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkImageView >", "class_ogre_1_1_fast_array.html", null ],
+    [ "Ogre::FastArray< VkLayerProperties >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkPipelineStageFlags >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkQueueFamilyProperties >", "class_ogre_1_1_fast_array.html", null ],
     [ "Ogre::FastArray< VkSemaphore >", "class_ogre_1_1_fast_array.html", null ],
@@ -866,9 +868,12 @@ var hierarchy =
         [ "Ogre::MetalWindow", "class_ogre_1_1_metal_window.html", null ],
         [ "Ogre::NULLWindow", "class_ogre_1_1_n_u_l_l_window.html", null ],
         [ "Ogre::VulkanWindow", "class_ogre_1_1_vulkan_window.html", [
-          [ "Ogre::VulkanAndroidWindow", "class_ogre_1_1_vulkan_android_window.html", null ],
-          [ "Ogre::VulkanWin32Window", "class_ogre_1_1_vulkan_win32_window.html", null ],
-          [ "Ogre::VulkanXcbWindow", "class_ogre_1_1_vulkan_xcb_window.html", null ]
+          [ "Ogre::VulkanWindowNull", "class_ogre_1_1_vulkan_window_null.html", null ],
+          [ "Ogre::VulkanWindowSwapChainBased", "class_ogre_1_1_vulkan_window_swap_chain_based.html", [
+            [ "Ogre::VulkanAndroidWindow", "class_ogre_1_1_vulkan_android_window.html", null ],
+            [ "Ogre::VulkanWin32Window", "class_ogre_1_1_vulkan_win32_window.html", null ],
+            [ "Ogre::VulkanXcbWindow", "class_ogre_1_1_vulkan_xcb_window.html", null ]
+          ] ]
         ] ],
         [ "Ogre::Win32Window", "class_ogre_1_1_win32_window.html", null ]
       ] ],
@@ -1906,6 +1911,8 @@ var hierarchy =
     [ "Ogre::VulkanDevice::ExtraVkFeatures", "struct_ogre_1_1_vulkan_device_1_1_extra_vk_features.html", null ],
     [ "Ogre::VulkanDevice::SelectedQueue", "struct_ogre_1_1_vulkan_device_1_1_selected_queue.html", null ],
     [ "Ogre::VulkanDynamicBuffer", "class_ogre_1_1_vulkan_dynamic_buffer.html", null ],
+    [ "Ogre::VulkanExternalDevice", "struct_ogre_1_1_vulkan_external_device.html", null ],
+    [ "Ogre::VulkanExternalInstance", "struct_ogre_1_1_vulkan_external_instance.html", null ],
     [ "Ogre::VulkanFlushOnlyDescValue", "struct_ogre_1_1_vulkan_flush_only_desc_value.html", null ],
     [ "Ogre::VulkanFrameBufferDescValue", "struct_ogre_1_1_vulkan_frame_buffer_desc_value.html", null ],
     [ "Ogre::VulkanGlobalBindingTable", "struct_ogre_1_1_vulkan_global_binding_table.html", null ],

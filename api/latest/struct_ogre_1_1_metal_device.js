@@ -2,6 +2,7 @@ var struct_ogre_1_1_metal_device =
 [
     [ "MetalDevice", "struct_ogre_1_1_metal_device.html#ad8e3a62da0aa8f8ff31c516c95ffc94e", null ],
     [ "~MetalDevice", "struct_ogre_1_1_metal_device.html#a7619e459ea80fcbfc3d9e3012981a028", null ],
+    [ "_waitUntilCommitedCommandBufferCompleted", "struct_ogre_1_1_metal_device.html#a28ffa138d4bf01e8c8b6eb808546526a", null ],
     [ "commitAndNextCommandBuffer", "struct_ogre_1_1_metal_device.html#a57db350efd3f3b4ce38457d7b83bcb21", null ],
     [ "endAllEncoders", "struct_ogre_1_1_metal_device.html#abd648f16a343bfb621381a68fa9741e8", null ],
     [ "endBlitEncoder", "struct_ogre_1_1_metal_device.html#a3c2914a26f607a4e1f2264f0cf5c3200", null ],
@@ -11,7 +12,6 @@ var struct_ogre_1_1_metal_device =
     [ "getComputeEncoder", "struct_ogre_1_1_metal_device.html#a7fa750eb62fa241c23314d3d5368f460", null ],
     [ "init", "struct_ogre_1_1_metal_device.html#a0ff5ab08b6d3b2ef9f15bac517acb1da", null ],
     [ "stall", "struct_ogre_1_1_metal_device.html#ac370d0d6d7539e4e31187c7d33c27961", null ],
-    [ "waitUntilCommitedCommandBufferCompleted", "struct_ogre_1_1_metal_device.html#a95d30f44d1b4c0fdad8c79f07f04d8f4", null ],
     [ "mBlitEncoder", "struct_ogre_1_1_metal_device.html#a954392d24903e403f582fdda1cde0e5b", null ],
     [ "mCommitedCommandBuffer", "struct_ogre_1_1_metal_device.html#a50f9c00467fa7f7cd0367466dee54c4e", null ],
     [ "mComputeEncoder", "struct_ogre_1_1_metal_device.html#af65992cbbeb31fb99eaae7bc4276fab8", null ],

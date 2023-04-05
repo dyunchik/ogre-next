@@ -25,6 +25,7 @@ var class_ogre_1_1_vulkan_vao_manager =
     [ "_notifyStagingBufferLeftZeroRef", "class_ogre_1_1_vulkan_vao_manager.html#ace2545e4ce03ff536e3d505e4669cc91", null ],
     [ "_schedulePoolAdvanceFrame", "class_ogre_1_1_vulkan_vao_manager.html#a6c95b6cd736eb88e5dc4f4a0e9a52cae", null ],
     [ "_update", "class_ogre_1_1_vulkan_vao_manager.html#ac73735e43fe3530434e7f0762824a12f", null ],
+    [ "_waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_vulkan_vao_manager.html#ac4042640f22065fba7929049f3770008", null ],
     [ "addDelayedFunc", "class_ogre_1_1_vulkan_vao_manager.html#a9c1168472c2c1b564613933fb1c1b6b5", null ],
     [ "allocateRawBuffer", "class_ogre_1_1_vulkan_vao_manager.html#a2870e34d1f38436b26304d046d824aa9", null ],
     [ "allocateTexture", "class_ogre_1_1_vulkan_vao_manager.html#afbc41371222b8bad4d0df08b1edeba2a", null ],
@@ -91,6 +92,5 @@ var class_ogre_1_1_vulkan_vao_manager =
     [ "waitFor", "class_ogre_1_1_vulkan_vao_manager.html#ab330cf97bef57f8fb7cb8a5488ff13c1", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_vulkan_vao_manager.html#abf65946524c59fd0a4e09e3230e6e23a", null ],
     [ "waitForTailFrameToFinish", "class_ogre_1_1_vulkan_vao_manager.html#a08ecd0459408a5f93c4193bad5e225b6", null ],
-    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_vulkan_vao_manager.html#ac19a4a6b47aecca2c6ad8f57aa43f59b", null ],
     [ "VulkanStagingBuffer", "class_ogre_1_1_vulkan_vao_manager.html#a54ef1d4112c8678c370f99209117ce35", null ]
 ];

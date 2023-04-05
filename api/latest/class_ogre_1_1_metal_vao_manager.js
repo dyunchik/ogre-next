@@ -14,6 +14,7 @@ var class_ogre_1_1_metal_vao_manager =
     [ "_notifyStagingBufferEnteredZeroRef", "class_ogre_1_1_metal_vao_manager.html#a374058250675bac30bfb5b03c26b5eb7", null ],
     [ "_notifyStagingBufferLeftZeroRef", "class_ogre_1_1_metal_vao_manager.html#ace2545e4ce03ff536e3d505e4669cc91", null ],
     [ "_update", "class_ogre_1_1_metal_vao_manager.html#aef197b0fbe37b6c3e04236da8d4949ce", null ],
+    [ "_waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_metal_vao_manager.html#ab598d3faae2953fab0440abbdcea51d1", null ],
     [ "bindDrawId", "class_ogre_1_1_metal_vao_manager.html#aaa852c541e3198817eed6e16a816771c", null ],
     [ "calculateVertexSize", "class_ogre_1_1_metal_vao_manager.html#a222d4e40df5eb53ab0b050e37aca7b89", null ],
     [ "cleanupEmptyPools", "class_ogre_1_1_metal_vao_manager.html#a8a3575e92200eac70e002a5d678e87a9", null ],
@@ -62,6 +63,5 @@ var class_ogre_1_1_metal_vao_manager =
     [ "unalignedCopy", "class_ogre_1_1_metal_vao_manager.html#a5257283985d32942e992be7741bb332f", null ],
     [ "waitFor", "class_ogre_1_1_metal_vao_manager.html#a9c4b755aeadffcf4fe37e464b1193643", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#a0bfec349598fe9246f626f5ddaa7a228", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#adcf387a327a1fe5dafb309f9bfc6dec4", null ],
-    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_metal_vao_manager.html#afb5f55203c1a1e341d9ba649f79861bd", null ]
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_metal_vao_manager.html#adcf387a327a1fe5dafb309f9bfc6dec4", null ]
 ];

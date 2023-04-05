@@ -108,6 +108,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad8e3a62da0aa8f8ff31c516c95ffc94e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7619e459ea80fcbfc3d9e3012981a028"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a7619e459ea80fcbfc3d9e3012981a028">~MetalDevice</a> ()</td></tr>
 <tr class="separator:a7619e459ea80fcbfc3d9e3012981a028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28ffa138d4bf01e8c8b6eb808546526a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a28ffa138d4bf01e8c8b6eb808546526a">_waitUntilCommitedCommandBufferCompleted</a> ()</td></tr>
+<tr class="memdesc:a28ffa138d4bf01e8c8b6eb808546526a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for the last committed command buffer completion instead of the last frame completion with command buffer switching, so we can continue to work with current command buffer. It's required for BT_DEFAULT_SHARED buffers upload.  <a href="struct_ogre_1_1_metal_device.html#a28ffa138d4bf01e8c8b6eb808546526a">More...</a><br /></td></tr>
+<tr class="separator:a28ffa138d4bf01e8c8b6eb808546526a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57db350efd3f3b4ce38457d7b83bcb21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a57db350efd3f3b4ce38457d7b83bcb21">commitAndNextCommandBuffer</a> ()</td></tr>
 <tr class="separator:a57db350efd3f3b4ce38457d7b83bcb21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd648f16a343bfb621381a68fa9741e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#abd648f16a343bfb621381a68fa9741e8">endAllEncoders</a> (bool endRenderPassDesc=true)</td></tr>
@@ -129,8 +132,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac370d0d6d7539e4e31187c7d33c27961"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#ac370d0d6d7539e4e31187c7d33c27961">stall</a> ()</td></tr>
 <tr class="memdesc:ac370d0d6d7539e4e31187c7d33c27961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Waits for the GPU to finish all pending commands.  <a href="struct_ogre_1_1_metal_device.html#ac370d0d6d7539e4e31187c7d33c27961">More...</a><br /></td></tr>
 <tr class="separator:ac370d0d6d7539e4e31187c7d33c27961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95d30f44d1b4c0fdad8c79f07f04d8f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ogre_1_1_metal_device.html#a95d30f44d1b4c0fdad8c79f07f04d8f4">waitUntilCommitedCommandBufferCompleted</a> ()</td></tr>
-<tr class="separator:a95d30f44d1b4c0fdad8c79f07f04d8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -193,6 +194,25 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a28ffa138d4bf01e8c8b6eb808546526a" name="a28ffa138d4bf01e8c8b6eb808546526a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28ffa138d4bf01e8c8b6eb808546526a">&#9670;&#160;</a></span>_waitUntilCommitedCommandBufferCompleted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Ogre::MetalDevice::_waitUntilCommitedCommandBufferCompleted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Waits for the last committed command buffer completion instead of the last frame completion with command buffer switching, so we can continue to work with current command buffer. It's required for BT_DEFAULT_SHARED buffers upload. </p>
+
+</div>
+</div>
 <a id="a57db350efd3f3b4ce38457d7b83bcb21" name="a57db350efd3f3b4ce38457d7b83bcb21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a57db350efd3f3b4ce38457d7b83bcb21">&#9670;&#160;</a></span>commitAndNextCommandBuffer()</h2>
 
@@ -353,23 +373,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Waits for the GPU to finish all pending commands. </p>
-
-</div>
-</div>
-<a id="a95d30f44d1b4c0fdad8c79f07f04d8f4" name="a95d30f44d1b4c0fdad8c79f07f04d8f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95d30f44d1b4c0fdad8c79f07f04d8f4">&#9670;&#160;</a></span>waitUntilCommitedCommandBufferCompleted()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Ogre::MetalDevice::waitUntilCommitedCommandBufferCompleted </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

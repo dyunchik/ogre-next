@@ -15,6 +15,7 @@ var class_ogre_1_1_d3_d11_vao_manager =
     [ "_notifyStagingBufferEnteredZeroRef", "class_ogre_1_1_d3_d11_vao_manager.html#a374058250675bac30bfb5b03c26b5eb7", null ],
     [ "_notifyStagingBufferLeftZeroRef", "class_ogre_1_1_d3_d11_vao_manager.html#ace2545e4ce03ff536e3d505e4669cc91", null ],
     [ "_update", "class_ogre_1_1_d3_d11_vao_manager.html#a0883005bd43a1f7817c7b25cb340e791", null ],
+    [ "_waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_d3_d11_vao_manager.html#ac4042640f22065fba7929049f3770008", null ],
     [ "bindDrawId", "class_ogre_1_1_d3_d11_vao_manager.html#aea601a8c455905dd831e9dfafb506098", null ],
     [ "calculateVertexSize", "class_ogre_1_1_d3_d11_vao_manager.html#a222d4e40df5eb53ab0b050e37aca7b89", null ],
     [ "cleanupEmptyPools", "class_ogre_1_1_d3_d11_vao_manager.html#a995b22bd0bab22cf895b272372c491df", null ],
@@ -68,6 +69,5 @@ var class_ogre_1_1_d3_d11_vao_manager =
     [ "waitFor", "class_ogre_1_1_d3_d11_vao_manager.html#ae9f78d49c591fda7664e173805b651b5", null ],
     [ "waitFor", "class_ogre_1_1_d3_d11_vao_manager.html#a19f695bdf80d437e1ae8de3e047e202a", null ],
     [ "waitForSpecificFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#acecbebc28df5a9d1863191030b8d55ac", null ],
-    [ "waitForTailFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#a6398691f6a128e2b37f4cd27a27aab01", null ],
-    [ "waitUntilCommitedCommandBufferCompleted", "class_ogre_1_1_d3_d11_vao_manager.html#ac19a4a6b47aecca2c6ad8f57aa43f59b", null ]
+    [ "waitForTailFrameToFinish", "class_ogre_1_1_d3_d11_vao_manager.html#a6398691f6a128e2b37f4cd27a27aab01", null ]
 ];
